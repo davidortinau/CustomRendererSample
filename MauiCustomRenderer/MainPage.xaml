@@ -9,20 +9,20 @@
                          Released="Handle_Released"
                          HorizontalOptions="Center"
                          VerticalOptions="Center">
-            <Frame CornerRadius="20"
-                   BackgroundColor="Transparent"
-                   IsClippedToBounds="true"
-                   Padding="0">
                 <Grid
-                    Background="#202020">
+                    Background="#202020"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    >
 
                     <Label Text="Press Me"
                            FontSize="16"
                            TextColor="White"
                            Margin="24,20"
+                           VerticalOptions="Center"
                            HorizontalTextAlignment="Center" />
                 </Grid>
-            </Frame>
+            
         </c:PressableView>
     </Grid>
 
